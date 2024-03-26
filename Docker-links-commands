@@ -13,10 +13,12 @@ https://docs.docker.com/
 Docker Commands:
 https://docs.docker.com/engine/reference/commandline/docker/
 
-docker run:
-https://docs.docker.com/engine/reference/run/
+Docker Run Command:
+https://docs.docker.com/reference/cli/docker/container/run/
 
 Dockerfile --> https://jenkov.com/tutorials/docker/dockerfile.html#entrypoint
+
+Docker Network --> https://docs.docker.com/network/drivers/
 
 Docker-Compose --> https://docs.docker.com/compose/samples-for-compose/
 
@@ -34,6 +36,10 @@ MySQL --> https://www.w3schools.com/MySQL/default.asp
     9  docker images
    10  docker inspect httpd
    11  docker run -itd -p 82:80 httpd
+
+To name a container
+docker run -itd --name intellipaat -p 82:80 httpd
+
    12  docker ps
    13  docker container ls
    14  lsof -i -P -n | grep LISTEN
