@@ -12,6 +12,8 @@ https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html
 MVN Repository
 https://mvnrepository.com/
 
+https://isaacpro01.medium.com/how-to-create-jar-file-and-dockerize-a-springboot-application-all-in-docker-714d48196ea6
+
 
 
 Commands:
@@ -64,6 +66,7 @@ Goals
 build package
 clean package
 
+Artifact Name: ArtifactID + Version + Packaging --> as specified in pom.xml
 
 1st Feb 2024:
 48  wget https://dlcdn.apache.org/maven/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.tar.gz

@@ -24,3 +24,9 @@ terraform plan
 terraform apply
 
 terraform destroy
+
+Terraform Examples:-
+https://github.com/stacksimplify/hashicorp-certified-terraform-associate
+
+Jenkins Terraform Integration:-
+https://plugins.jenkins.io/terraform/
