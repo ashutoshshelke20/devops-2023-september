@@ -9,6 +9,8 @@ sudo su -
 
   Images:
 https://hub.docker.com/
+https://hub.docker.com/search?image_filter=official
+
 https://docs.docker.com/
 
 Docker Commands:
@@ -19,6 +21,8 @@ https://docs.docker.com/reference/cli/docker/container/run/
 
 Dockerfile --> https://jenkov.com/tutorials/docker/dockerfile.html#entrypoint
 https://docs.docker.com/build/building/multi-stage/
+
+*COPY vs ADD, CMD vs ENTRYPOINT
 
 Examples
 https://github.com/komljen/dockerfile-examples/tree/master
@@ -153,6 +157,10 @@ docker volume ls
    99  docker run -itd -p 82:80 httpd1
   100  cd project1/
   101  ls -l
+
+70  docker login
+   71  docker image tag ubuntu1:latest raushan8586/devops-aug-2024:ubuntu1
+   72  docker image push raushan8586/devops-aug-2024:ubuntu1
 
 
 
